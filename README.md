@@ -1,8 +1,8 @@
-#TRABAJO PRACTICO DE BACKEND- INSTITUTO TECNICO SUPERIOR CIPOLLETTI
+# TRABAJO PRACTICO DE BACKEND- INSTITUTO TECNICO SUPERIOR CIPOLLETTI
 ## PETICIONES CRUD CON JSON WEB TOKEN, EXPRESS VALIDATOR Y BCRYP
 
 ## REGISTRO DE USUARIO
-#Método: POST
+# Método: POST
 http://localhost:3000/api/auth/register
 ```
 http://localhost:3000/api/auth/register
@@ -15,7 +15,7 @@ http://localhost:3000/api/auth/register
 ```
 
 ## LOGIN DE USUARIO
-#Método: POST
+# Método: POST
 ```
 http://localhost:3000/api/auth/login
 
@@ -26,7 +26,7 @@ http://localhost:3000/api/auth/login
 ```
 
 ## OBTENER PERFIL DEL USUARIO
-#Método: GET
+# Método: GET
 ```
 http://localhost:3000/api/users/profile
 Headers:
@@ -34,8 +34,8 @@ Authorization: Bearer <token>
 (Reemplaza <token> con el token JWT que obtuviste en el login)
 ```
 
-##ACTUALIZAR PERFIL DE USUARIO
-#Método: PUT
+## ACTUALIZAR PERFIL DE USUARIO
+# Método: PUT
 
 ```
 URL: http://localhost:3000/api/users/profile
@@ -52,7 +52,7 @@ Authorization: Bearer <token>
 
 
 ## ELIMINAR CUENTA DE USUARIO
-#Método: DELETE
+# Método: DELETE
 
 ```
 URL: http://localhost:3000/api/users/profile
