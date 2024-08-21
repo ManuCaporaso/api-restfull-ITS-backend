@@ -17,7 +17,7 @@ exports.register = async (req, res) => {
 
         res.status(201).json({ token });
     } catch (error) {
-        res.status(500).json({ message: 'Error creating user' });
+        res.status(500).json({ message: 'Error al crear usuario' });
     }
 };
 
@@ -26,11 +26,11 @@ exports.login = async (req, res) => {
     try {
         const user = await User.findOne({ where: { email } });
         if (!user || !(await comparePassword(password, user.password))) {
-            return res.status(401).json({ message: 'Invalid credentials' });
+            return res.status(401).json({ message: 'Credenciales invalidas' });
         }
         const token = generateToken({ id: user.id, username: user.username });
         res.json({ token });
     } catch (error) {
-        res.status(500).json({ message: 'Error logging in' });
+        res.status(500).json({ message: 'Error de login' });
     }
 };

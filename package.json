@@ -7,9 +7,9 @@
     "dev": "nodemon index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Manuel Caporaso",
   "license": "ISC",
-  "description": "",
+  "description": "Trabajo practico apirestfull ITS- BACKEND",
   "dependencies": {
     "bcrypt": "^5.1.1",
     "dotenv": "^16.4.5",
@@ -17,7 +17,6 @@
     "express-validator": "^7.2.0",
     "jsonwebtoken": "^9.0.2",
     "mariadb": "^3.3.1",
-    "mysql2": "^3.11.0",
     "sequelize": "^6.37.3"
   },
   "devDependencies": {
